@@ -51,35 +51,7 @@ Você pode hospedar este jogo gratuitamente no GitHub Pages para acessá-lo de q
 3.  Na seção "Branch", selecione a branch `main` (ou `master`) e a pasta `/root`.
 4.  Clique em **"Save"**. O GitHub irá gerar um link para o seu jogo em poucos minutos.
 
-### Opção 2: Localmente
 
-Você também pode rodar o jogo diretamente do seu computador.
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
-    ```
-2.  **Navegue até a pasta do projeto:**
-    ```bash
-    cd NOME-DO-REPOSITORIO
-    ```
-3.  **Abra o arquivo `index.html`** no seu navegador de preferência (Google Chrome, Firefox, etc.).
-
-E pronto, a diversão pode começar!
-
----
-
-## 🔧 Como Contribuir
-
-Contribuições são sempre bem-vindas! Se você tiver ideias para novas perguntas, desafios ou melhorias no código, sinta-se à vontade para:
-
-1.  Fazer um **Fork** do projeto.
-2.  Criar uma nova **Branch** (`git checkout -b feature/sua-feature`).
-3.  Fazer o **Commit** das suas alterações (`git commit -m 'Adiciona nova feature'`).
-4.  Fazer o **Push** para a Branch (`git push origin feature/sua-feature`).
-5.  Abrir um **Pull Request**.
-
----
 
 ## 📝 Licença
 
