@@ -1,18 +1,3 @@
-# jogo-de-casal-cartas-do-amor
-Noite dos Jogos: Um jogo de cartas interativo para casais. 🎲❤️  Desenvolvido com HTML, CSS e JavaScript puro, este jogo digital foi criado para aprofundar a conexão, a intimidade e a diversão entre casais. Possui um dado virtual, 160 cartas divididas em 4 categorias temáticas e uma lógica que impede a repetição de perguntas na mesma partida.
-
-# Noite dos Jogos 🎲❤️
-
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Technologies](https://img.shields.io/badge/Tech-HTML%20%7C%20CSS%20%7C%20JS-blue)
-
-Um jogo de cartas digital e interativo, desenvolvido para casais que desejam se reconectar, explorar a intimidade e se divertir de uma forma leve e ousada. Com um design simples e elegante, o jogo é totalmente automatizado com um dado virtual e sorteio de cartas.
-
-![Imagem da Tela do Jogo](https://i.imgur.com/your-image-url.png) 
-*(Dica: Tire um print da tela do jogo, envie para um site como o [Imgur](https://imgur.com/) e cole o link aqui para deixar seu README mais visual!)*
-
----
-
 ## 📜 Sobre o Jogo
 
 O objetivo da "Noite dos Jogos" é simples: fortalecer a conexão do casal. Através de um dado virtual, os jogadores recebem cartas de quatro categorias diferentes, cada uma com um propósito único para guiar a conversa e a interação.
@@ -28,7 +13,7 @@ O jogo contém 160 cartas (40 por categoria), divididas em:
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 * **Dado Virtual Automatizado:** Não é preciso ter um dado físico! O jogo gera um número aleatório de 1 a 6 a cada rodada.
 * **Sorteio Inteligente de Cartas:** O resultado do dado (ímpar ou par) determina automaticamente as categorias possíveis para a rodada.
@@ -36,23 +21,3 @@ O jogo contém 160 cartas (40 por categoria), divididas em:
 * **Interface Limpa e Intuitiva:** Um design minimalista e focado na experiência do usuário.
 * **Construído com Tecnologias Web Padrão:** Feito com HTML, CSS e JavaScript puros (vanilla), sem a necessidade de frameworks ou bibliotecas.
 
----
-
-## 🚀 Como Jogar
-
-Existem duas maneiras fáceis de jogar.
-
-### Opção 1: GitHub Pages (Recomendado)
-
-Você pode hospedar este jogo gratuitamente no GitHub Pages para acessá-lo de qualquer lugar através de um link.
-
-1.  Vá até a aba **"Settings"** (Configurações) do seu repositório.
-2.  No menu lateral, clique em **"Pages"**.
-3.  Na seção "Branch", selecione a branch `main` (ou `master`) e a pasta `/root`.
-4.  Clique em **"Save"**. O GitHub irá gerar um link para o seu jogo em poucos minutos.
-
-
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
