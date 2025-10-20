@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1><title>Noite dos Jogos</title></h1>
+    <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="app-container">
+        <div id="start-screen" class="screen active">
+            <h1>Noite dos Jogos</h1>
+            <p>Um jogo para se conectar, divertir e descobrir.</p>
+            <button id="start-game-btn" class="btn">Iniciar Novo Jogo</button>
+            <button id="show-rules-btn" class="btn btn-secondary">Ver Regras</button>
+        </div>
+
+        <div id="rules-screen" class="screen">
+            <h2>Regras do Jogo</h2>
+            <div class="rules-content">
+                <p><strong>1. Lance o dado:</strong> A cada rodada, clique no botão "Lançar o Dado".</p>
+                <p><strong>2. Resultado Ímpar (1, 3, 5):</strong> O jogo sorteará uma carta N1 ou N3.</p>
+                <p><strong>3. Resultado Par (2, 4, 6):</strong> O jogo sorteará uma carta N2 ou N4  - (Interação romântica e física)).</p>
+                <p><strong>4. Aceitar ou Recusar:</strong> Você pode aceitar o que a carta pede. Se recusar, pague a consequência combinada (beber uma dose ou tirar uma peça de roupa).</p>
+                <p><p><strong>O objetivo é se divertir e se conectar. Não há vencedores!</strong></p>
+                <br
+             <h3><p><strong>O que Significa Cada Carta?</strong></h3>
+                <p><strong>N1 - Conexão Emocional:</strong> Cartas com perguntas abertas sobre sentimentos, memórias e sonhos. São perfeitas para aprofundar a conversa e o conhecimento um do outro.</p>
+                <p><strong>N2 - Intimidade e Desejo:</strong> O clima vai esquentar! São perguntas sobre desejos, fantasias e a vida íntima do casal, feitas para explorar a sexualidade com respeito e curiosidade.</p>
+                <p><strong>N3 - Desafios Ousados:</strong> Propostas de ações divertidas ou instigantes para sair da rotina, dar boas risadas e testar os limites da ousadia de cada um.</p>
+                <p><strong>N4 - Interação Romântica e Física:</strong> Ações que promovem o toque, o carinho e o afeto físico. Espere por beijos, massagens e outros gestos para aumentar a conexão física do casal.</p>
+            </div>
+            <button id="back-to-start-btn" class="btn">Voltar</button>
+        </div>
+
+        <div id="game-screen" class="screen">
+            <div id="turn-prompt">
+                <div class="dice" id="dice">
+                    </div>
+                <button id="roll-dice-btn" class="btn">Lançar o Dado</button>
+            </div>
+
+            <div id="card-display" class="hidden">
+                <div class="card">
+                    <span id="card-category">N_</span>
+                    <p id="card-question">Aqui vai a pergunta ou o desafio da carta.</p>
+                </div>
+                <button id="next-turn-btn" class="btn">Próxima Rodada</button>
+            </div>
+             <button id="end-game-btn" class="btn btn-secondary">Encerrar Jogo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
